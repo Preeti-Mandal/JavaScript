@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operators and Expressions</title>
+</head>
+<body>
+    <script>
+        console.log("Operators in JS");
+
+        let a = 45;
+        let b = 6;
+
+        console.log("a / b = ", a/b);
+        console.log("a ** b = ", a**b); //Exponentation =  'a' raise to the power 'b'.
+        console.log("a++ = ", a++); //Here output will be 45 only.
+         //Increment => a = a+1 
+        console.log(a); // Output = 46, value of a will change in previous step only.
+        console.log("a-- = ", a--); // Output=> 46
+        //Decrement => a = a-1
+        console.log(a); // Output=> 46-1= 45 (as value of 'a' decreased in previous step. ).
+        console.log("++a = ", ++a); 
+        console.log("--a = ", --a);
+
+        /* 
+        a++ will first print then add, vice versa for a--, whereas
+        ++a will first add then print, vice versa for --a.
+        */
+
+
+       console.log("Comparison Operators");
+       let comp1 = 6;
+       let comp2 = "6";
+       console.log("comp1 == comp2 is ", comp1 == comp2); // True bcuz both have same value(var or string doesn't matter here)
+       console.log("comp1 != comp2 is ", comp1 != comp2);
+       console.log("comp1 === comp2 is ", comp1 === comp2); // False bcuz one is variable and other is string.
+       console.log("comp1 !== comp2 is ", comp1 !== comp2);
+
+       comp1 = 5;
+       comp2 = 8;
+       console.log("comp1 >= comp2 is ", comp1 >= comp2);
+       console.log("comp1 <= comp2 is ", comp1 <= comp2);
+       // ? - Ternary Operator.
+
+
+    console.log("Logical Operators(returns a boolean value)");
+    /*
+    && logical AND 
+    || logical OR
+    !  logical NOT
+    */ 
+
+    let x = 5;
+    let y = 6;
+    console.log(x>y && x==5); 
+    console.log(x<y || y==5);
+       
+
+
+       
+
+
+
+
+ 
+    
+
+
+    </script>
+</body>
+</html>
