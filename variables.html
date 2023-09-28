@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variables and DataTypes</title>
+</head>
+<body>
+    <script>
+        console.log("var, let and const");
+
+        let a = 67;
+        console.log(a);
+
+        // let 8num = "hello";  this will throw error as variables can be started only w $ or _ 
+
+        // let is block scoped whereas var can be changed from anywhere or everywhere. And var can be updated & re-declared but let can only be updated not re-declared. 
+
+          var b = 45;
+          var b = "YEAH";
+          let c = "hola";
+          var d = null;
+          var e = undefined;
+          {
+            var b = "hi";
+            console.log(b);
+
+            let c = "adios";
+            console.log(c);
+
+          } 
+          console.log(b);  // This will also give the block value cuz of var.
+
+          console.log(c); // here output will be adios as it's outside the block.
+
+          //Primitive Datatype and Object(non-primitive DT).
+
+          // nn bb ss u = null number boolean BigInt string symbol undefined.
+
+          let k = null;
+          let l = 345;
+          let m = true;
+          let n = BigInt("567") + BigInt("3");
+          let p = "Riya";
+          let q = Symbol("Represent Symbol");
+          let r = undefined;
+          console.log(k, l, m, n, p, q, r);
+          console.log(typeof q);
+
+
+          //Object
+          const item = {
+            name: "khushi",
+            section: 9-A,
+            isTeacher: false,
+          }
+          console.log(item.name);
+          item.result = "69%";  //To add a new 
+          console.log(item);
+          
+
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>
