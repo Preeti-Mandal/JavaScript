@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Switch</title>
+</head>
+<body>
+    <script>
+         let fruit = prompt("Which fruit would you like to buy?");
+        switch(fruit){
+            case 'Orange' :
+                 console.log("Oranges are Rs 100 per kg.");
+            break;
+            case 'Banana' :
+                console.log("Bananas are Rs60 a dozen.");
+            break;
+            case 'Mango' :
+            case 'Grapes' :
+                console.log("Mangoes and grapes are Rs150 per kg.");
+            break;
+            default :
+                console.log(`Sorry, we're out of ${fruit}.`);
+
+        }
+    
+    </script>
+</body>
+</html>

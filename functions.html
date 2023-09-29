@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions</title>
+</head>
+<body>
+    <script>
+
+        //Arrow function
+        const hello = () => {
+            console.log("HOLA PPL");
+            return "heyo";
+        }
+         console.log(hello);
+         
+        function onePlusAvg (x, y){
+            console.log("done");
+            return 1 + (x + y) / 2
+        }
+
+        let a = 1;
+        let b = 2;
+        let c = 3;
+
+        console.log("One plus Avg of a and b is ", onePlusAvg(a, b));
+        console.log("One plus Avg of c and b is ", onePlusAvg(c, b));
+        console.log("One plus Avg of a and c is ", onePlusAvg(a, c));
+    </script>
+</body>
+</html>

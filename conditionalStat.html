@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conditional Statement</title>
+</head>
+<body>
+   <script>
+   /*
+    let age = prompt("Enter your age");
+    console.log(typeof age);
+    a = Number.parseInt(age); //Convert the string into a number
+
+    if(age<9){
+        alert("You're not legally eligible to drive.");
+    } else if(age>18 && age<=9 ){
+        alert("You can start learning how to drive");
+    }else{
+        alert("You're allowed as well as legally eligible to drive");
+    }
+
+    console.log("Ternary Operators");
+    console.log("You can", (age<18 ? "not drive" : "drive"));  //Condition ? exp1 : exp2
+
+    */
+
+    let num = prompt("Enter the number");
+    num = Number.parseInt(num);
+    if ((num%2 == 0) && (num%3 == 0)){
+        console.log("The number is divisible by 2 as well as 3 ");
+    }  else if( (num%2 !== 0) && (num%3 == 0)){
+        console.log("Number is divisible by 3 but not 2.");
+    } else if ( (num%2 == 0) && (num%3 !== 0)){
+        console.log("Number is divisible by 2 but not 3.");
+    } else {
+        console.log("The given number is neither divisible by 2 nor 3.")
+    }
+
+    
+
+    
+
+
+    
+
+
+   </script> 
+</body>
+</html>

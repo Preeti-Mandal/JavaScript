@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question on forloop</title>
+<body>
+    <script>
+     //Q- Write a program to print the marks of some student in an object using for and for in loop.
+        let marks = {
+            shreya: 88,
+            priya: 80,
+            ria: 67,
+            sera: 35
+        }
+        for (let i=0; i<Object.keys(marks).length; i++){
+            console.log("The marks of " + Object.keys(marks)[i] + " are " + marks[Object.keys(marks)[i]]);
+        }
+
+        //for in loop method.
+        for(let key in marks){
+            console.log("The marks of " + key + " are " + + marks[key]);
+        }
+
+        //Q2- Write a program to print 'try again' until the user enters the correct num.
+
+        let cn = 69;
+        let i 
+        while(i != cn){
+            console.log("try again!!");
+            i = prompt("Enter a number");
+        }
+        console.log("You have entered the correct number.");
+    
+    </script>
+</body>
+</html>

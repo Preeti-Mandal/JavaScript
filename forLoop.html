@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loops & Functions</title>
+</head>
+<body>
+    <script>
+        console.log("LOOPs");
+        /*
+        Types of Loop
+        for loop    => loop a block of code no of times
+        for in loop => loops through the keys of an object
+        for of loop => loops through the values of an object
+        while loop  => loops a block based ona specific condition
+        do-while loop => while loop variant which runs atleast once
+        */
+
+
+        /*
+        console.log("For loop");
+        for (let i=0; i<5; i++){  //
+            console.log(i);
+        }
+
+        //Program to add first n natural number.
+        let sum = 0;
+        let n = prompt("Enter the value of n");
+        n = Number.parseInt(n);
+        for (let i=0; i<n; i++){
+            sum += (i+1);
+           // console.log((i+1), "+");
+        }
+        console.log("sum of first " + n + " natural numbers is " + sum);
+
+        */
+
+         
+      console.log("For in loop");
+      
+        let obj = {
+            riya: 90,
+            priya: 88,
+            sia: 78,
+            mia: 69,
+        }
+        for(let a in obj){
+            console.log(a);
+            console.log("Marks of " + a + " are " + obj.a)
+        }
+
+        console.log("For of loop");
+
+        for (let b of "Priya"){
+            console.log(b);  // This will all the letter i.e, P r i y a
+        }
+
+
+    </script>
+</body>
+</html>
